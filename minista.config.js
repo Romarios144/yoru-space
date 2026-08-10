@@ -3,7 +3,7 @@ import path from 'path'
 
 export default defineConfig({
   root: '',
-  base: '/',
+  base: '/yoru-space/',
   public: 'public',
   out: 'dist',
   assets: {
