@@ -1,0 +1,935 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Vibe | Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/yoru-space/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/yoru-space/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/yoru-space/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/yoru-space/assets/site.webmanifest">
+    <script src="/yoru-space/assets/main.js" type="module"></script>
+    <link rel="stylesheet" href="/yoru-space/assets/bundle.css">
+  </head>
+  <body>
+    <header class="header is-fixed" data-js-overlay-menu="">
+      <div class="header__inner container">
+        <a class="header__logo logo" href="/" title="Home" aria-label="Home">
+          <img class="logo__image" src="/yoru-space/assets/images/logo.png" alt="" width="199" height="60" loading="eager">
+        </a>
+        <dialog class="header__overlay-menu-dialog" data-js-overlay-menu-dialog="">
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a class="header__menu-link is-active" href="/">Home</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="/movies">Anime</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="/support">Support</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="/subscriptions">Subscriptions</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__actions">
+            <button class="header__button button button--transparent" title="Search" aria-label="Search" type="button"><span class="button__icon icon">
+                <svg width="24" height="24" fill="none" stroke="currentColor">
+                  <use href="/yoru-space/assets/images/icons.svg#search"></use>
+                </svg>
+              </span></button>
+            <button class="header__button button button--transparent" title="Notifications" aria-label="Notifications" type="button"><span class="button__icon icon">
+                <svg width="24" height="24" fill="none" stroke="currentColor">
+                  <use href="/yoru-space/assets/images/icons.svg#notification"></use>
+                </svg>
+              </span></button>
+          </div>
+        </dialog>
+        <button class="header__burger-button visible-tablet burger-button" type="button" aria-label="Open menu" title="Open menu" data-js-overlay-menu-burger-button="">
+          <svg class="burger-button__svg" width="30" height="30" viewBox="0 0 100 100">
+            <path class="burger-button__line burger-button__line--1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
+            <path class="burger-button__line burger-button__line--2" d="M 20,50 H 80"></path>
+            <path class="burger-button__line burger-button__line--3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main class="content content--reset-padding-top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__pano">
+          <div class="hero__pano-inner container"></div>
+        </div>
+        <div class="hero__body">
+          <div class="hero__body-inner container">
+            <h1 class="hero__title" id="hero-title">The Best Streaming Experience</h1>
+            <div class="hero__description">
+              <p>StreamVibe is the best streaming experience for watching your favorite movies and shows on demand, anytime, anywhere. With StreamVibe, you can enjoy a wide variety of content, including the latest blockbusters, classic movies, popular TV shows, and more. You can also create your own watchlists, so you can easily find the content you want to watch.</p>
+            </div>
+            <button class="hero__button button" type="button"><span class="button__icon icon">
+                <svg width="24" height="24" fill="currentColor" stroke="none">
+                  <use href="/yoru-space/assets/images/icons.svg#play"></use>
+                </svg>
+              </span><span class="button__label">Start Watching Now</span></button>
+          </div>
+        </div>
+      </section>
+      <section class="section container" aria-labelledby="categories-title">
+        <header class="section__header">
+          <div class="section__info">
+            <h2 class="section__title h3" id="categories-title">Explore our wide variety of categories</h2>
+            <div class="section__description">
+              <p>Whether you&#x27;re looking for a comedy to make you laugh, a drama to make you think, or a documentary to learn something new</p>
+            </div>
+          </div>
+          <div class="section__actions hidden-mobile">
+            <div class="slider-navigation slider-navigation--tile" id="categories-slider-navigation" data-js-slider-navigation="">
+              <button class="slider-navigation__arrow-button slider-navigation__arrow-button--previous button button--black-10" title="Previous slide" aria-label="Previous slide" type="button" data-js-slider-previous-button=""><span class="button__icon icon">
+                  <svg width="24" height="24" fill="none" stroke="currentColor">
+                    <use href="/yoru-space/assets/images/icons.svg#arrow-left"></use>
+                  </svg>
+                </span></button>
+              <div class="slider-navigation__pagination" data-js-slider-pagination=""></div>
+              <button class="slider-navigation__arrow-button slider-navigation__arrow-button--next button button--black-10" title="Next slide" aria-label="Next slide" type="button" data-js-slider-next-button=""><span class="button__icon icon">
+                  <svg width="24" height="24" fill="none" stroke="currentColor">
+                    <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                  </svg>
+                </span></button>
+            </div>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="slider slider--beyond-the-viewport-on-mobile-s" data-js-slider="{&quot;sliderParams&quot;:{&quot;slidesPerView&quot;:5,&quot;slidesPerGroup&quot;:5,&quot;spaceBetween&quot;:30,&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:2,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20},&quot;481&quot;:{&quot;slidesPerView&quot;:3,&quot;slidesPerGroup&quot;:3,&quot;spaceBetween&quot;:20},&quot;768&quot;:{&quot;slidesPerView&quot;:4,&quot;slidesPerGroup&quot;:4,&quot;spaceBetween&quot;:20},&quot;1024&quot;:{&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:false},&quot;1441&quot;:{&quot;spaceBetween&quot;:30,&quot;allowTouchMove&quot;:false}}},&quot;navigationTargetElementId&quot;:&quot;categories-slider-navigation&quot;}">
+            <div class="slider__swiper swiper" data-js-slider-swiper="">
+              <ul class="slider__list swiper-wrapper">
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/action-1-320x480.webp 320w, /yoru-space/assets/images/action-1-400x600.webp 400w, /yoru-space/assets/images/action-1-600x900.webp 600w" src="/yoru-space/assets/images/action-1-600x900.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="900" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-2-320x451.webp 320w, /yoru-space/assets/images/action-2-400x564.webp 400w, /yoru-space/assets/images/action-2-640x902.webp 640w, /yoru-space/assets/images/action-2-707x1000.webp 707w" src="/yoru-space/assets/images/action-2-707x1000.webp" sizes="(min-width: 707px) 707px, 100vw" width="707" height="1000" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-3-320x454.webp 320w, /yoru-space/assets/images/action-3-400x568.webp 400w, /yoru-space/assets/images/action-3-640x909.webp 640w, /yoru-space/assets/images/action-3-800x1136.webp 800w, /yoru-space/assets/images/action-3-1024x1454.webp 1024w, /yoru-space/assets/images/action-3-1280x1818.webp 1280w, /yoru-space/assets/images/action-3-1440x2045.webp 1440w, /yoru-space/assets/images/action-3-1920x2726.webp 1920w, /yoru-space/assets/images/action-3-2560x3635.webp 2560w, /yoru-space/assets/images/action-3-2880x4090.webp 2880w, /yoru-space/assets/images/action-3-2892x4096.webp 2892w" src="/yoru-space/assets/images/action-3-2892x4096.webp" sizes="(min-width: 2892px) 2892px, 100vw" width="2892" height="4096" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-4-320x477.webp 320w, /yoru-space/assets/images/action-4-400x596.webp 400w, /yoru-space/assets/images/action-4-640x954.webp 640w, /yoru-space/assets/images/action-4-800x1192.webp 800w, /yoru-space/assets/images/action-4-1024x1526.webp 1024w, /yoru-space/assets/images/action-4-1280x1907.webp 1280w, /yoru-space/assets/images/action-4-1379x2048.webp 1379w" src="/yoru-space/assets/images/action-4-1379x2048.webp" sizes="(min-width: 1379px) 1379px, 100vw" width="1379" height="2048" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Action</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/comedy-1-320x454.webp 320w, /yoru-space/assets/images/comedy-1-400x568.webp 400w, /yoru-space/assets/images/comedy-1-640x909.webp 640w, /yoru-space/assets/images/comedy-1-685x975.webp 685w" src="/yoru-space/assets/images/comedy-1-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-2-320x435.webp 320w, /yoru-space/assets/images/comedy-2-400x544.webp 400w, /yoru-space/assets/images/comedy-2-600x813.webp 600w" src="/yoru-space/assets/images/comedy-2-600x813.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="813" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-3-320x451.webp 320w, /yoru-space/assets/images/comedy-3-400x564.webp 400w, /yoru-space/assets/images/comedy-3-425x600.webp 425w" src="/yoru-space/assets/images/comedy-3-425x600.webp" sizes="(min-width: 425px) 425px, 100vw" width="425" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-4-320x477.webp 320w, /yoru-space/assets/images/comedy-4-400x596.webp 400w, /yoru-space/assets/images/comedy-4-404x600.webp 404w" src="/yoru-space/assets/images/comedy-4-404x600.webp" sizes="(min-width: 404px) 404px, 100vw" width="404" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Comedy</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/isekai-1-320x454.webp 320w, /yoru-space/assets/images/isekai-1-400x568.webp 400w, /yoru-space/assets/images/isekai-1-640x909.webp 640w, /yoru-space/assets/images/isekai-1-685x975.webp 685w" src="/yoru-space/assets/images/isekai-1-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-2-320x480.webp 320w, /yoru-space/assets/images/isekai-2-400x600.webp 400w, /yoru-space/assets/images/isekai-2-640x960.webp 640w, /yoru-space/assets/images/isekai-2-800x1200.webp 800w, /yoru-space/assets/images/isekai-2-1024x1536.webp 1024w, /yoru-space/assets/images/isekai-2-1280x1920.webp 1280w, /yoru-space/assets/images/isekai-2-1354x2030.webp 1354w" src="/yoru-space/assets/images/isekai-2-1354x2030.webp" sizes="(min-width: 1354px) 1354px, 100vw" width="1354" height="2030" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-3-320x454.webp 320w, /yoru-space/assets/images/isekai-3-400x568.webp 400w, /yoru-space/assets/images/isekai-3-640x909.webp 640w, /yoru-space/assets/images/isekai-3-685x975.webp 685w" src="/yoru-space/assets/images/isekai-3-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-4-320x448.webp 320w, /yoru-space/assets/images/isekai-4-400x560.webp 400w, /yoru-space/assets/images/isekai-4-428x600.webp 428w" src="/yoru-space/assets/images/isekai-4-428x600.webp" sizes="(min-width: 428px) 428px, 100vw" width="428" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Isekai</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/psychology-1-320x454.webp 320w, /yoru-space/assets/images/psychology-1-400x568.webp 400w, /yoru-space/assets/images/psychology-1-424x600.webp 424w" src="/yoru-space/assets/images/psychology-1-424x600.webp" sizes="(min-width: 424px) 424px, 100vw" width="424" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-2-320x461.webp 320w, /yoru-space/assets/images/psychology-2-400x576.webp 400w, /yoru-space/assets/images/psychology-2-417x600.webp 417w" src="/yoru-space/assets/images/psychology-2-417x600.webp" sizes="(min-width: 417px) 417px, 100vw" width="417" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-3-320x470.webp 320w, /yoru-space/assets/images/psychology-3-367x540.webp 367w" src="/yoru-space/assets/images/psychology-3-367x540.webp" sizes="(min-width: 367px) 367px, 100vw" width="367" height="540" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-4-320x454.webp 320w, /yoru-space/assets/images/psychology-4-400x568.webp 400w, /yoru-space/assets/images/psychology-4-450x641.webp 450w" src="/yoru-space/assets/images/psychology-4-450x641.webp" sizes="(min-width: 450px) 450px, 100vw" width="450" height="641" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Psychological</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/romance-1-320x640.webp 320w, /yoru-space/assets/images/romance-1-400x800.webp 400w, /yoru-space/assets/images/romance-1-640x1280.webp 640w" src="/yoru-space/assets/images/romance-1-640x1280.webp" sizes="(min-width: 640px) 640px, 100vw" width="640" height="1280" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-2-320x454.webp 320w, /yoru-space/assets/images/romance-2-400x568.webp 400w, /yoru-space/assets/images/romance-2-640x909.webp 640w, /yoru-space/assets/images/romance-2-700x995.webp 700w" src="/yoru-space/assets/images/romance-2-700x995.webp" sizes="(min-width: 700px) 700px, 100vw" width="700" height="995" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-3-320x454.webp 320w, /yoru-space/assets/images/romance-3-400x568.webp 400w, /yoru-space/assets/images/romance-3-424x600.webp 424w" src="/yoru-space/assets/images/romance-3-424x600.webp" sizes="(min-width: 424px) 424px, 100vw" width="424" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-4-320x451.webp 320w, /yoru-space/assets/images/romance-4-400x564.webp 400w, /yoru-space/assets/images/romance-4-600x848.webp 600w" src="/yoru-space/assets/images/romance-4-600x848.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="848" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Romance</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/action-1-320x480.webp 320w, /yoru-space/assets/images/action-1-400x600.webp 400w, /yoru-space/assets/images/action-1-600x900.webp 600w" src="/yoru-space/assets/images/action-1-600x900.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="900" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-2-320x451.webp 320w, /yoru-space/assets/images/action-2-400x564.webp 400w, /yoru-space/assets/images/action-2-640x902.webp 640w, /yoru-space/assets/images/action-2-707x1000.webp 707w" src="/yoru-space/assets/images/action-2-707x1000.webp" sizes="(min-width: 707px) 707px, 100vw" width="707" height="1000" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-3-320x454.webp 320w, /yoru-space/assets/images/action-3-400x568.webp 400w, /yoru-space/assets/images/action-3-640x909.webp 640w, /yoru-space/assets/images/action-3-800x1136.webp 800w, /yoru-space/assets/images/action-3-1024x1454.webp 1024w, /yoru-space/assets/images/action-3-1280x1818.webp 1280w, /yoru-space/assets/images/action-3-1440x2045.webp 1440w, /yoru-space/assets/images/action-3-1920x2726.webp 1920w, /yoru-space/assets/images/action-3-2560x3635.webp 2560w, /yoru-space/assets/images/action-3-2880x4090.webp 2880w, /yoru-space/assets/images/action-3-2892x4096.webp 2892w" src="/yoru-space/assets/images/action-3-2892x4096.webp" sizes="(min-width: 2892px) 2892px, 100vw" width="2892" height="4096" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-4-320x477.webp 320w, /yoru-space/assets/images/action-4-400x596.webp 400w, /yoru-space/assets/images/action-4-640x954.webp 640w, /yoru-space/assets/images/action-4-800x1192.webp 800w, /yoru-space/assets/images/action-4-1024x1526.webp 1024w, /yoru-space/assets/images/action-4-1280x1907.webp 1280w, /yoru-space/assets/images/action-4-1379x2048.webp 1379w" src="/yoru-space/assets/images/action-4-1379x2048.webp" sizes="(min-width: 1379px) 1379px, 100vw" width="1379" height="2048" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Action</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/comedy-1-320x454.webp 320w, /yoru-space/assets/images/comedy-1-400x568.webp 400w, /yoru-space/assets/images/comedy-1-640x909.webp 640w, /yoru-space/assets/images/comedy-1-685x975.webp 685w" src="/yoru-space/assets/images/comedy-1-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-2-320x435.webp 320w, /yoru-space/assets/images/comedy-2-400x544.webp 400w, /yoru-space/assets/images/comedy-2-600x813.webp 600w" src="/yoru-space/assets/images/comedy-2-600x813.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="813" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-3-320x451.webp 320w, /yoru-space/assets/images/comedy-3-400x564.webp 400w, /yoru-space/assets/images/comedy-3-425x600.webp 425w" src="/yoru-space/assets/images/comedy-3-425x600.webp" sizes="(min-width: 425px) 425px, 100vw" width="425" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-4-320x477.webp 320w, /yoru-space/assets/images/comedy-4-400x596.webp 400w, /yoru-space/assets/images/comedy-4-404x600.webp 404w" src="/yoru-space/assets/images/comedy-4-404x600.webp" sizes="(min-width: 404px) 404px, 100vw" width="404" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Comedy</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/isekai-1-320x454.webp 320w, /yoru-space/assets/images/isekai-1-400x568.webp 400w, /yoru-space/assets/images/isekai-1-640x909.webp 640w, /yoru-space/assets/images/isekai-1-685x975.webp 685w" src="/yoru-space/assets/images/isekai-1-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-2-320x480.webp 320w, /yoru-space/assets/images/isekai-2-400x600.webp 400w, /yoru-space/assets/images/isekai-2-640x960.webp 640w, /yoru-space/assets/images/isekai-2-800x1200.webp 800w, /yoru-space/assets/images/isekai-2-1024x1536.webp 1024w, /yoru-space/assets/images/isekai-2-1280x1920.webp 1280w, /yoru-space/assets/images/isekai-2-1354x2030.webp 1354w" src="/yoru-space/assets/images/isekai-2-1354x2030.webp" sizes="(min-width: 1354px) 1354px, 100vw" width="1354" height="2030" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-3-320x454.webp 320w, /yoru-space/assets/images/isekai-3-400x568.webp 400w, /yoru-space/assets/images/isekai-3-640x909.webp 640w, /yoru-space/assets/images/isekai-3-685x975.webp 685w" src="/yoru-space/assets/images/isekai-3-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-4-320x448.webp 320w, /yoru-space/assets/images/isekai-4-400x560.webp 400w, /yoru-space/assets/images/isekai-4-428x600.webp 428w" src="/yoru-space/assets/images/isekai-4-428x600.webp" sizes="(min-width: 428px) 428px, 100vw" width="428" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Isekai</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/psychology-1-320x454.webp 320w, /yoru-space/assets/images/psychology-1-400x568.webp 400w, /yoru-space/assets/images/psychology-1-424x600.webp 424w" src="/yoru-space/assets/images/psychology-1-424x600.webp" sizes="(min-width: 424px) 424px, 100vw" width="424" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-2-320x461.webp 320w, /yoru-space/assets/images/psychology-2-400x576.webp 400w, /yoru-space/assets/images/psychology-2-417x600.webp 417w" src="/yoru-space/assets/images/psychology-2-417x600.webp" sizes="(min-width: 417px) 417px, 100vw" width="417" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-3-320x470.webp 320w, /yoru-space/assets/images/psychology-3-367x540.webp 367w" src="/yoru-space/assets/images/psychology-3-367x540.webp" sizes="(min-width: 367px) 367px, 100vw" width="367" height="540" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-4-320x454.webp 320w, /yoru-space/assets/images/psychology-4-400x568.webp 400w, /yoru-space/assets/images/psychology-4-450x641.webp 450w" src="/yoru-space/assets/images/psychology-4-450x641.webp" sizes="(min-width: 450px) 450px, 100vw" width="450" height="641" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Psychological</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/romance-1-320x640.webp 320w, /yoru-space/assets/images/romance-1-400x800.webp 400w, /yoru-space/assets/images/romance-1-640x1280.webp 640w" src="/yoru-space/assets/images/romance-1-640x1280.webp" sizes="(min-width: 640px) 640px, 100vw" width="640" height="1280" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-2-320x454.webp 320w, /yoru-space/assets/images/romance-2-400x568.webp 400w, /yoru-space/assets/images/romance-2-640x909.webp 640w, /yoru-space/assets/images/romance-2-700x995.webp 700w" src="/yoru-space/assets/images/romance-2-700x995.webp" sizes="(min-width: 700px) 700px, 100vw" width="700" height="995" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-3-320x454.webp 320w, /yoru-space/assets/images/romance-3-400x568.webp 400w, /yoru-space/assets/images/romance-3-424x600.webp 424w" src="/yoru-space/assets/images/romance-3-424x600.webp" sizes="(min-width: 424px) 424px, 100vw" width="424" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-4-320x451.webp 320w, /yoru-space/assets/images/romance-4-400x564.webp 400w, /yoru-space/assets/images/romance-4-600x848.webp 600w" src="/yoru-space/assets/images/romance-4-600x848.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="848" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Romance</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/action-1-320x480.webp 320w, /yoru-space/assets/images/action-1-400x600.webp 400w, /yoru-space/assets/images/action-1-600x900.webp 600w" src="/yoru-space/assets/images/action-1-600x900.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="900" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-2-320x451.webp 320w, /yoru-space/assets/images/action-2-400x564.webp 400w, /yoru-space/assets/images/action-2-640x902.webp 640w, /yoru-space/assets/images/action-2-707x1000.webp 707w" src="/yoru-space/assets/images/action-2-707x1000.webp" sizes="(min-width: 707px) 707px, 100vw" width="707" height="1000" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-3-320x454.webp 320w, /yoru-space/assets/images/action-3-400x568.webp 400w, /yoru-space/assets/images/action-3-640x909.webp 640w, /yoru-space/assets/images/action-3-800x1136.webp 800w, /yoru-space/assets/images/action-3-1024x1454.webp 1024w, /yoru-space/assets/images/action-3-1280x1818.webp 1280w, /yoru-space/assets/images/action-3-1440x2045.webp 1440w, /yoru-space/assets/images/action-3-1920x2726.webp 1920w, /yoru-space/assets/images/action-3-2560x3635.webp 2560w, /yoru-space/assets/images/action-3-2880x4090.webp 2880w, /yoru-space/assets/images/action-3-2892x4096.webp 2892w" src="/yoru-space/assets/images/action-3-2892x4096.webp" sizes="(min-width: 2892px) 2892px, 100vw" width="2892" height="4096" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-4-320x477.webp 320w, /yoru-space/assets/images/action-4-400x596.webp 400w, /yoru-space/assets/images/action-4-640x954.webp 640w, /yoru-space/assets/images/action-4-800x1192.webp 800w, /yoru-space/assets/images/action-4-1024x1526.webp 1024w, /yoru-space/assets/images/action-4-1280x1907.webp 1280w, /yoru-space/assets/images/action-4-1379x2048.webp 1379w" src="/yoru-space/assets/images/action-4-1379x2048.webp" sizes="(min-width: 1379px) 1379px, 100vw" width="1379" height="2048" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Action</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/comedy-1-320x454.webp 320w, /yoru-space/assets/images/comedy-1-400x568.webp 400w, /yoru-space/assets/images/comedy-1-640x909.webp 640w, /yoru-space/assets/images/comedy-1-685x975.webp 685w" src="/yoru-space/assets/images/comedy-1-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-2-320x435.webp 320w, /yoru-space/assets/images/comedy-2-400x544.webp 400w, /yoru-space/assets/images/comedy-2-600x813.webp 600w" src="/yoru-space/assets/images/comedy-2-600x813.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="813" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-3-320x451.webp 320w, /yoru-space/assets/images/comedy-3-400x564.webp 400w, /yoru-space/assets/images/comedy-3-425x600.webp 425w" src="/yoru-space/assets/images/comedy-3-425x600.webp" sizes="(min-width: 425px) 425px, 100vw" width="425" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-4-320x477.webp 320w, /yoru-space/assets/images/comedy-4-400x596.webp 400w, /yoru-space/assets/images/comedy-4-404x600.webp 404w" src="/yoru-space/assets/images/comedy-4-404x600.webp" sizes="(min-width: 404px) 404px, 100vw" width="404" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Comedy</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/isekai-1-320x454.webp 320w, /yoru-space/assets/images/isekai-1-400x568.webp 400w, /yoru-space/assets/images/isekai-1-640x909.webp 640w, /yoru-space/assets/images/isekai-1-685x975.webp 685w" src="/yoru-space/assets/images/isekai-1-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-2-320x480.webp 320w, /yoru-space/assets/images/isekai-2-400x600.webp 400w, /yoru-space/assets/images/isekai-2-640x960.webp 640w, /yoru-space/assets/images/isekai-2-800x1200.webp 800w, /yoru-space/assets/images/isekai-2-1024x1536.webp 1024w, /yoru-space/assets/images/isekai-2-1280x1920.webp 1280w, /yoru-space/assets/images/isekai-2-1354x2030.webp 1354w" src="/yoru-space/assets/images/isekai-2-1354x2030.webp" sizes="(min-width: 1354px) 1354px, 100vw" width="1354" height="2030" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-3-320x454.webp 320w, /yoru-space/assets/images/isekai-3-400x568.webp 400w, /yoru-space/assets/images/isekai-3-640x909.webp 640w, /yoru-space/assets/images/isekai-3-685x975.webp 685w" src="/yoru-space/assets/images/isekai-3-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-4-320x448.webp 320w, /yoru-space/assets/images/isekai-4-400x560.webp 400w, /yoru-space/assets/images/isekai-4-428x600.webp 428w" src="/yoru-space/assets/images/isekai-4-428x600.webp" sizes="(min-width: 428px) 428px, 100vw" width="428" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Isekai</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/psychology-1-320x454.webp 320w, /yoru-space/assets/images/psychology-1-400x568.webp 400w, /yoru-space/assets/images/psychology-1-424x600.webp 424w" src="/yoru-space/assets/images/psychology-1-424x600.webp" sizes="(min-width: 424px) 424px, 100vw" width="424" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-2-320x461.webp 320w, /yoru-space/assets/images/psychology-2-400x576.webp 400w, /yoru-space/assets/images/psychology-2-417x600.webp 417w" src="/yoru-space/assets/images/psychology-2-417x600.webp" sizes="(min-width: 417px) 417px, 100vw" width="417" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-3-320x470.webp 320w, /yoru-space/assets/images/psychology-3-367x540.webp 367w" src="/yoru-space/assets/images/psychology-3-367x540.webp" sizes="(min-width: 367px) 367px, 100vw" width="367" height="540" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-4-320x454.webp 320w, /yoru-space/assets/images/psychology-4-400x568.webp 400w, /yoru-space/assets/images/psychology-4-450x641.webp 450w" src="/yoru-space/assets/images/psychology-4-450x641.webp" sizes="(min-width: 450px) 450px, 100vw" width="450" height="641" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Psychological</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/romance-1-320x640.webp 320w, /yoru-space/assets/images/romance-1-400x800.webp 400w, /yoru-space/assets/images/romance-1-640x1280.webp 640w" src="/yoru-space/assets/images/romance-1-640x1280.webp" sizes="(min-width: 640px) 640px, 100vw" width="640" height="1280" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-2-320x454.webp 320w, /yoru-space/assets/images/romance-2-400x568.webp 400w, /yoru-space/assets/images/romance-2-640x909.webp 640w, /yoru-space/assets/images/romance-2-700x995.webp 700w" src="/yoru-space/assets/images/romance-2-700x995.webp" sizes="(min-width: 700px) 700px, 100vw" width="700" height="995" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-3-320x454.webp 320w, /yoru-space/assets/images/romance-3-400x568.webp 400w, /yoru-space/assets/images/romance-3-424x600.webp 424w" src="/yoru-space/assets/images/romance-3-424x600.webp" sizes="(min-width: 424px) 424px, 100vw" width="424" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-4-320x451.webp 320w, /yoru-space/assets/images/romance-4-400x564.webp 400w, /yoru-space/assets/images/romance-4-600x848.webp 600w" src="/yoru-space/assets/images/romance-4-600x848.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="848" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Romance</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/action-1-320x480.webp 320w, /yoru-space/assets/images/action-1-400x600.webp 400w, /yoru-space/assets/images/action-1-600x900.webp 600w" src="/yoru-space/assets/images/action-1-600x900.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="900" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-2-320x451.webp 320w, /yoru-space/assets/images/action-2-400x564.webp 400w, /yoru-space/assets/images/action-2-640x902.webp 640w, /yoru-space/assets/images/action-2-707x1000.webp 707w" src="/yoru-space/assets/images/action-2-707x1000.webp" sizes="(min-width: 707px) 707px, 100vw" width="707" height="1000" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-3-320x454.webp 320w, /yoru-space/assets/images/action-3-400x568.webp 400w, /yoru-space/assets/images/action-3-640x909.webp 640w, /yoru-space/assets/images/action-3-800x1136.webp 800w, /yoru-space/assets/images/action-3-1024x1454.webp 1024w, /yoru-space/assets/images/action-3-1280x1818.webp 1280w, /yoru-space/assets/images/action-3-1440x2045.webp 1440w, /yoru-space/assets/images/action-3-1920x2726.webp 1920w, /yoru-space/assets/images/action-3-2560x3635.webp 2560w, /yoru-space/assets/images/action-3-2880x4090.webp 2880w, /yoru-space/assets/images/action-3-2892x4096.webp 2892w" src="/yoru-space/assets/images/action-3-2892x4096.webp" sizes="(min-width: 2892px) 2892px, 100vw" width="2892" height="4096" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/action-4-320x477.webp 320w, /yoru-space/assets/images/action-4-400x596.webp 400w, /yoru-space/assets/images/action-4-640x954.webp 640w, /yoru-space/assets/images/action-4-800x1192.webp 800w, /yoru-space/assets/images/action-4-1024x1526.webp 1024w, /yoru-space/assets/images/action-4-1280x1907.webp 1280w, /yoru-space/assets/images/action-4-1379x2048.webp 1379w" src="/yoru-space/assets/images/action-4-1379x2048.webp" sizes="(min-width: 1379px) 1379px, 100vw" width="1379" height="2048" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Action</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/comedy-1-320x454.webp 320w, /yoru-space/assets/images/comedy-1-400x568.webp 400w, /yoru-space/assets/images/comedy-1-640x909.webp 640w, /yoru-space/assets/images/comedy-1-685x975.webp 685w" src="/yoru-space/assets/images/comedy-1-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-2-320x435.webp 320w, /yoru-space/assets/images/comedy-2-400x544.webp 400w, /yoru-space/assets/images/comedy-2-600x813.webp 600w" src="/yoru-space/assets/images/comedy-2-600x813.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="813" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-3-320x451.webp 320w, /yoru-space/assets/images/comedy-3-400x564.webp 400w, /yoru-space/assets/images/comedy-3-425x600.webp 425w" src="/yoru-space/assets/images/comedy-3-425x600.webp" sizes="(min-width: 425px) 425px, 100vw" width="425" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/comedy-4-320x477.webp 320w, /yoru-space/assets/images/comedy-4-400x596.webp 400w, /yoru-space/assets/images/comedy-4-404x600.webp 404w" src="/yoru-space/assets/images/comedy-4-404x600.webp" sizes="(min-width: 404px) 404px, 100vw" width="404" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Comedy</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/isekai-1-320x454.webp 320w, /yoru-space/assets/images/isekai-1-400x568.webp 400w, /yoru-space/assets/images/isekai-1-640x909.webp 640w, /yoru-space/assets/images/isekai-1-685x975.webp 685w" src="/yoru-space/assets/images/isekai-1-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-2-320x480.webp 320w, /yoru-space/assets/images/isekai-2-400x600.webp 400w, /yoru-space/assets/images/isekai-2-640x960.webp 640w, /yoru-space/assets/images/isekai-2-800x1200.webp 800w, /yoru-space/assets/images/isekai-2-1024x1536.webp 1024w, /yoru-space/assets/images/isekai-2-1280x1920.webp 1280w, /yoru-space/assets/images/isekai-2-1354x2030.webp 1354w" src="/yoru-space/assets/images/isekai-2-1354x2030.webp" sizes="(min-width: 1354px) 1354px, 100vw" width="1354" height="2030" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-3-320x454.webp 320w, /yoru-space/assets/images/isekai-3-400x568.webp 400w, /yoru-space/assets/images/isekai-3-640x909.webp 640w, /yoru-space/assets/images/isekai-3-685x975.webp 685w" src="/yoru-space/assets/images/isekai-3-685x975.webp" sizes="(min-width: 685px) 685px, 100vw" width="685" height="975" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/isekai-4-320x448.webp 320w, /yoru-space/assets/images/isekai-4-400x560.webp 400w, /yoru-space/assets/images/isekai-4-428x600.webp 428w" src="/yoru-space/assets/images/isekai-4-428x600.webp" sizes="(min-width: 428px) 428px, 100vw" width="428" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Isekai</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/psychology-1-320x454.webp 320w, /yoru-space/assets/images/psychology-1-400x568.webp 400w, /yoru-space/assets/images/psychology-1-424x600.webp 424w" src="/yoru-space/assets/images/psychology-1-424x600.webp" sizes="(min-width: 424px) 424px, 100vw" width="424" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-2-320x461.webp 320w, /yoru-space/assets/images/psychology-2-400x576.webp 400w, /yoru-space/assets/images/psychology-2-417x600.webp 417w" src="/yoru-space/assets/images/psychology-2-417x600.webp" sizes="(min-width: 417px) 417px, 100vw" width="417" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-3-320x470.webp 320w, /yoru-space/assets/images/psychology-3-367x540.webp 367w" src="/yoru-space/assets/images/psychology-3-367x540.webp" sizes="(min-width: 367px) 367px, 100vw" width="367" height="540" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/psychology-4-320x454.webp 320w, /yoru-space/assets/images/psychology-4-400x568.webp 400w, /yoru-space/assets/images/psychology-4-450x641.webp 450w" src="/yoru-space/assets/images/psychology-4-450x641.webp" sizes="(min-width: 450px) 450px, 100vw" width="450" height="641" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Psychological</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <a class="category-card" href="/movies">
+                    <div class="category-card__images">
+                      <img srcset="/yoru-space/assets/images/romance-1-320x640.webp 320w, /yoru-space/assets/images/romance-1-400x800.webp 400w, /yoru-space/assets/images/romance-1-640x1280.webp 640w" src="/yoru-space/assets/images/romance-1-640x1280.webp" sizes="(min-width: 640px) 640px, 100vw" width="640" height="1280" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-2-320x454.webp 320w, /yoru-space/assets/images/romance-2-400x568.webp 400w, /yoru-space/assets/images/romance-2-640x909.webp 640w, /yoru-space/assets/images/romance-2-700x995.webp 700w" src="/yoru-space/assets/images/romance-2-700x995.webp" sizes="(min-width: 700px) 700px, 100vw" width="700" height="995" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-3-320x454.webp 320w, /yoru-space/assets/images/romance-3-400x568.webp 400w, /yoru-space/assets/images/romance-3-424x600.webp 424w" src="/yoru-space/assets/images/romance-3-424x600.webp" sizes="(min-width: 424px) 424px, 100vw" width="424" height="600" alt decoding="async" loading="lazy" class="category-card__image">
+                      <img srcset="/yoru-space/assets/images/romance-4-320x451.webp 320w, /yoru-space/assets/images/romance-4-400x564.webp 400w, /yoru-space/assets/images/romance-4-600x848.webp 600w" src="/yoru-space/assets/images/romance-4-600x848.webp" sizes="(min-width: 600px) 600px, 100vw" width="600" height="848" alt decoding="async" loading="lazy" class="category-card__image">
+                    </div>
+                    <div class="category-card__body">
+                      <h3 class="category-card__title"><span>Romance</span></h3><span class="category-card__icon icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor">
+                          <use href="/yoru-space/assets/images/icons.svg#arrow-right"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="slider__scrollbar visible-mobile" data-js-slider-scrollbar=""></div>
+          </div>
+        </div>
+      </section>
+      <section class="section container" aria-labelledby="devices-title">
+        <header class="section__header">
+          <div class="section__info">
+            <h2 class="section__title h3" id="devices-title">We Provide you streaming experience across various devices.</h2>
+            <div class="section__description">
+              <p>With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment.</p>
+            </div>
+          </div>
+        </header>
+        <div class="section__body">
+          <ul class="grid grid--3">
+            <li class="gird__item">
+              <div class="device-card">
+                <header class="device-card__header">
+                  <div class="device-card__image-wrapper">
+                    <img class="device-card__image" src="/yoru-space/assets/images/1.svg" width="40" height="40" alt="" loading="lazy">
+                  </div>
+                  <h3 class="device-card__title h4">Smartphones</h3>
+                </header>
+                <div class="device-card__description">
+                  <p>StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</p>
+                </div>
+              </div>
+            </li>
+            <li class="gird__item">
+              <div class="device-card">
+                <header class="device-card__header">
+                  <div class="device-card__image-wrapper">
+                    <img class="device-card__image" src="/yoru-space/assets/images/2.svg" width="40" height="40" alt="" loading="lazy">
+                  </div>
+                  <h3 class="device-card__title h4">Tablet</h3>
+                </header>
+                <div class="device-card__description">
+                  <p>StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</p>
+                </div>
+              </div>
+            </li>
+            <li class="gird__item">
+              <div class="device-card">
+                <header class="device-card__header">
+                  <div class="device-card__image-wrapper">
+                    <img class="device-card__image" src="/yoru-space/assets/images/3.svg" width="40" height="40" alt="" loading="lazy">
+                  </div>
+                  <h3 class="device-card__title h4">Smart TV</h3>
+                </header>
+                <div class="device-card__description">
+                  <p>StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</p>
+                </div>
+              </div>
+            </li>
+            <li class="gird__item">
+              <div class="device-card">
+                <header class="device-card__header">
+                  <div class="device-card__image-wrapper">
+                    <img class="device-card__image" src="/yoru-space/assets/images/4.svg" width="40" height="40" alt="" loading="lazy">
+                  </div>
+                  <h3 class="device-card__title h4">Laptops</h3>
+                </header>
+                <div class="device-card__description">
+                  <p>StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</p>
+                </div>
+              </div>
+            </li>
+            <li class="gird__item">
+              <div class="device-card">
+                <header class="device-card__header">
+                  <div class="device-card__image-wrapper">
+                    <img class="device-card__image" src="/yoru-space/assets/images/5.svg" width="40" height="40" alt="" loading="lazy">
+                  </div>
+                  <h3 class="device-card__title h4">Gaming Consoles</h3>
+                </header>
+                <div class="device-card__description">
+                  <p>StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</p>
+                </div>
+              </div>
+            </li>
+            <li class="gird__item">
+              <div class="device-card">
+                <header class="device-card__header">
+                  <div class="device-card__image-wrapper">
+                    <img class="device-card__image" src="/yoru-space/assets/images/6.svg" width="40" height="40" alt="" loading="lazy">
+                  </div>
+                  <h3 class="device-card__title h4">VR Headsets </h3>
+                </header>
+                <div class="device-card__description">
+                  <p>StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section container" aria-labelledby="questions-title">
+        <header class="section__header">
+          <div class="section__info">
+            <h2 class="section__title h3" id="questions-title">Frequently Asked Questions</h2>
+            <div class="section__description">
+              <p>Got questions? We&#x27;ve got answers! Check out our FAQ section to find answers to the most common questions about StreamVibe.</p>
+            </div>
+          </div>
+          <div class="section__actions">
+            <a class="button" href="/support"><span class="button__label">Ask a Question</span></a>
+          </div>
+        </header>
+        <div class="section__body">
+          <ol class="accordion-group accordion-group--2-columns accordion-group--has-counter">
+            <li class="accordion-group__item">
+              <div class="accordion">
+                <details class="accordion__details" name="questions" open="">
+                  <summary class="accordion__summary">
+                    <h3 class="accordion__title h5"><span role="term" aria-details="question-0">What is StreamVibe?</span></h3>
+                  </summary>
+                </details>
+                <div class="accordion__content" id="question-0" role="definition">
+                  <div class="accordion__content-inner">
+                    <div class="accordion__content-body">
+                      <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="accordion-group__item">
+              <div class="accordion">
+                <details class="accordion__details" name="questions">
+                  <summary class="accordion__summary">
+                    <h3 class="accordion__title h5"><span role="term" aria-details="question-1">How much does StreamVibe cost?</span></h3>
+                  </summary>
+                </details>
+                <div class="accordion__content" id="question-1" role="definition">
+                  <div class="accordion__content-inner">
+                    <div class="accordion__content-body">
+                      <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="accordion-group__item">
+              <div class="accordion">
+                <details class="accordion__details" name="questions">
+                  <summary class="accordion__summary">
+                    <h3 class="accordion__title h5"><span role="term" aria-details="question-2">What content is available on StreamVibe?</span></h3>
+                  </summary>
+                </details>
+                <div class="accordion__content" id="question-2" role="definition">
+                  <div class="accordion__content-inner">
+                    <div class="accordion__content-body">
+                      <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="accordion-group__item accordion-group__item--last-column-item">
+              <div class="accordion">
+                <details class="accordion__details" name="questions">
+                  <summary class="accordion__summary">
+                    <h3 class="accordion__title h5"><span role="term" aria-details="question-3">How can I watch StreamVibe?</span></h3>
+                  </summary>
+                </details>
+                <div class="accordion__content" id="question-3" role="definition">
+                  <div class="accordion__content-inner">
+                    <div class="accordion__content-body">
+                      <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="accordion-group__item">
+              <div class="accordion">
+                <details class="accordion__details" name="questions">
+                  <summary class="accordion__summary">
+                    <h3 class="accordion__title h5"><span role="term" aria-details="question-4">How do I sign up for StreamVibe?</span></h3>
+                  </summary>
+                </details>
+                <div class="accordion__content" id="question-4" role="definition">
+                  <div class="accordion__content-inner">
+                    <div class="accordion__content-body">
+                      <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="accordion-group__item">
+              <div class="accordion">
+                <details class="accordion__details" name="questions">
+                  <summary class="accordion__summary">
+                    <h3 class="accordion__title h5"><span role="term" aria-details="question-5">What is the StreamVibe free trial?</span></h3>
+                  </summary>
+                </details>
+                <div class="accordion__content" id="question-5" role="definition">
+                  <div class="accordion__content-inner">
+                    <div class="accordion__content-body">
+                      <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="accordion-group__item">
+              <div class="accordion">
+                <details class="accordion__details" name="questions">
+                  <summary class="accordion__summary">
+                    <h3 class="accordion__title h5"><span role="term" aria-details="question-6">How do I contact StreamVibe customer support?</span></h3>
+                  </summary>
+                </details>
+                <div class="accordion__content" id="question-6" role="definition">
+                  <div class="accordion__content-inner">
+                    <div class="accordion__content-body">
+                      <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="accordion-group__item accordion-group__item--last-column-item">
+              <div class="accordion">
+                <details class="accordion__details" name="questions">
+                  <summary class="accordion__summary">
+                    <h3 class="accordion__title h5"><span role="term" aria-details="question-7">What are the StreamVibe payment methods?</span></h3>
+                  </summary>
+                </details>
+                <div class="accordion__content" id="question-7" role="definition">
+                  <div class="accordion__content-inner">
+                    <div class="accordion__content-body">
+                      <p>StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="section container" aria-labelledby="plans-id">
+        <header class="section__header">
+          <div class="section__info">
+            <h2 class="section__title h3" id="plans-id">Choose the plan that&#x27;s right for you</h2>
+            <div class="section__description">
+              <p>Join StreamVibe and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!</p>
+            </div>
+          </div>
+          <div class="section__actions">
+            <div class="tabs-navigation" id="plans-tabs-navigation" role="tablist" aria-labelledby="plans-tabs-title" data-js-tabs-navigation="">
+              <h3 class="visually-hidden" id="plans-tabs-title">plans-tabs</h3>
+              <div class="tabs-navigation__button is-active" id="monthly-tab" aria-controls="monthly-tabpanel" role="tab" aria-selected="true" tabindex="0" data-js-tabs-button="">Monthly</div>
+              <div class="tabs-navigation__button" id="yearly-tab" aria-controls="yearly-tabpanel" role="tab" tabindex="-1" data-js-tabs-button="">Yearly</div>
+            </div>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="tabs" data-js-tabs="{&quot;navigationTargetElementId&quot;:&quot;plans-tabs-navigation&quot;}">
+            <div class="tabs__body">
+              <div class="tabs__content is-active" id="monthly-tabpanel" aria-labelledby="monthly-tab" tabindex="0" data-js-tabs-content="">
+                <ul class="grid grid--3">
+                  <li class="gird__item">
+                    <div class="plan-card">
+                      <div class="plan-card__info">
+                        <h3 class="plan-card__title h4">Basic Plan</h3>
+                        <div class="plan-card__description">
+                          <p>Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.</p>
+                        </div>
+                      </div>
+                      <div class="plan-card__conditions"><span class="plan-card__price">$9.99</span><span class="plan-card__period">/month</span></div>
+                      <div class="plan-card__actions">
+                        <a class="button button--black-08" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                        <a class="button" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="gird__item">
+                    <div class="plan-card">
+                      <div class="plan-card__info">
+                        <h3 class="plan-card__title h4">Standard Plan</h3>
+                        <div class="plan-card__description">
+                          <p>Access to a wider selection of movies and shows, including most new releases and exclusive content</p>
+                        </div>
+                      </div>
+                      <div class="plan-card__conditions"><span class="plan-card__price">$12.99</span><span class="plan-card__period">/month</span></div>
+                      <div class="plan-card__actions">
+                        <a class="button button--black-08" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                        <a class="button" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="gird__item">
+                    <div class="plan-card">
+                      <div class="plan-card__info">
+                        <h3 class="plan-card__title h4">Premium Plan</h3>
+                        <div class="plan-card__description">
+                          <p>Access to a widest selection of movies and shows, including all new releases and Offline Viewing</p>
+                        </div>
+                      </div>
+                      <div class="plan-card__conditions"><span class="plan-card__price">$14.99</span><span class="plan-card__period">/month</span></div>
+                      <div class="plan-card__actions">
+                        <a class="button button--black-08" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                        <a class="button" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="tabs__content" id="yearly-tabpanel" aria-labelledby="yearly-tab" tabindex="0" data-js-tabs-content="">
+                <ul class="grid grid--3">
+                  <li class="gird__item">
+                    <div class="plan-card">
+                      <div class="plan-card__info">
+                        <h3 class="plan-card__title h4">Basic Plan</h3>
+                        <div class="plan-card__description">
+                          <p>Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.</p>
+                        </div>
+                      </div>
+                      <div class="plan-card__conditions"><span class="plan-card__price">$99.99</span><span class="plan-card__period">/year</span></div>
+                      <div class="plan-card__actions">
+                        <a class="button button--black-08" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                        <a class="button" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="gird__item">
+                    <div class="plan-card">
+                      <div class="plan-card__info">
+                        <h3 class="plan-card__title h4">Standard Plan</h3>
+                        <div class="plan-card__description">
+                          <p>Access to a wider selection of movies and shows, including most new releases and exclusive content</p>
+                        </div>
+                      </div>
+                      <div class="plan-card__conditions"><span class="plan-card__price">$129.99</span><span class="plan-card__period">/year</span></div>
+                      <div class="plan-card__actions">
+                        <a class="button button--black-08" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                        <a class="button" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="gird__item">
+                    <div class="plan-card">
+                      <div class="plan-card__info">
+                        <h3 class="plan-card__title h4">Premium Plan</h3>
+                        <div class="plan-card__description">
+                          <p>Access to a widest selection of movies and shows, including all new releases and Offline Viewing</p>
+                        </div>
+                      </div>
+                      <div class="plan-card__conditions"><span class="plan-card__price">$149.99</span><span class="plan-card__period">/year</span></div>
+                      <div class="plan-card__actions">
+                        <a class="button button--black-08" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                        <a class="button" href="/subsctiptions"><span class="button__label">Start Free Trial</span></a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner container" aria-labelledby="banner-title">
+        <div class="banner__inner">
+          <div class="banner__body">
+            <h2 class="banner__title" id="banner-title">Start your free trial today!</h2>
+            <div class="banner__description">
+              <p>This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.</p>
+            </div>
+          </div>
+          <a class="banner__button button" href="/subscriptions"><span class="button__label">Start a Free Trail</span></a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner container">
+        <nav class="footer__menu">
+          <div class="footer__menu-column">
+            <a class="footer__menu-title h6" href="/">Home</a>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Categories</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Devices</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Pricing</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu-column">
+            <a class="footer__menu-title h6" href="/">Movies</a>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Gernes</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Trending</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">New Release</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Popular</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu-column">
+            <a class="footer__menu-title h6" href="/">Popular</a>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Gernes</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Trending</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">New Release</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Popular</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu-column">
+            <a class="footer__menu-title h6" href="/">Support</a>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu-column">
+            <a class="footer__menu-title h6" href="/">Subscription</a>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Plans</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="/">Features</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu-column">
+            <a class="footer__menu-title h6" href="/">Connect With Us</a>
+            <div class="footer__soc1als soc1als">
+              <ul class="soc1als__list">
+                <li class="soc1als__item">
+                  <a class="soc1als__link button button--black-10" title="Facebook" aria-label="Facebook" href="/" target="_blank"><span class="button__icon icon">
+                      <svg width="24" height="24" fill="currentColor" stroke="none">
+                        <use href="/yoru-space/assets/images/icons.svg#facebook"></use>
+                      </svg>
+                    </span></a>
+                </li>
+                <li class="soc1als__item">
+                  <a class="soc1als__link button button--black-10" title="Twitter" aria-label="Twitter" href="/" target="_blank"><span class="button__icon icon">
+                      <svg width="24" height="24" fill="currentColor" stroke="none">
+                        <use href="/yoru-space/assets/images/icons.svg#twitter"></use>
+                      </svg>
+                    </span></a>
+                </li>
+                <li class="soc1als__item">
+                  <a class="soc1als__link button button--black-10" title="LinkedIn" aria-label="LinkedIn" href="/" target="_blank"><span class="button__icon icon">
+                      <svg width="24" height="24" fill="currentColor" stroke="none">
+                        <use href="/yoru-space/assets/images/icons.svg#linked-in"></use>
+                      </svg>
+                    </span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="footer__extra">
+          <p class="footer__copyright">@<time dateTime="2023">2023</time> streamvib, All Rights Reserved</p>
+          <div class="footer__extra-links">
+            <a class="footer__extra-link" href="/">Terms of Use</a>
+            <a class="footer__extra-link" href="/">Privacy Policy</a>
+            <a class="footer__extra-link" href="/">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
