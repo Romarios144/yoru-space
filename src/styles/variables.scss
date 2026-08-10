@@ -1,15 +1,16 @@
 :root {
   --color-white: #FFFFFF;
   --color-black: #000000;
-
   --color-red-45: #E50000;
-  --color-red-50: #FF0000;
-  --color-red-55: #FF1919;
-  --color-red-60: #FF3333;
-  --color-red-80: #FF9999;
-  --color-red-90: #FFCCCC;
-  --color-red-95: #FFE5E5;
-  --color-red-99: #FFFAFA;
+
+  --color-purple-45: #5B21B6;
+  --color-purple-50: #7C3AED;
+  --color-purple-55: #8B5CF6;
+  --color-purple-60: #A78BFA;
+  --color-purple-80: #C4B5FD;
+  --color-purple-90: #DDD6FE;
+  --color-purple-95: #EDE9FE;
+  --color-purple-99: #FAF8FF;
 
   --color-black-06: #0F0F0F;
   --color-black-08: #141414;
@@ -31,6 +32,7 @@
 
   --border: var(--border-width-s) solid var(--color-black-15);
 
+  --border-width-xl: 6px;
   --border-width-l: 4px;
   --border-width-m: 3px;
   --border-width-s: 1px;
@@ -51,6 +53,8 @@
   --container-padding-x: 16px;
 
   --section-padding-y: #{fluid(75, 40)};
+
+  --field-padding-x: #{fluid-to-laptop(20, 16)};
 
   --transition-duration: 0.2s;
   --transition-duration-longer: 0.4s;

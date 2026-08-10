@@ -77,7 +77,7 @@ a {
   color: inherit;
 
   @include hover {
-    color: var(--color-red-45);
+    color: var(--color-purple-60);
   }
 
   &[class] {
@@ -88,3 +88,13 @@ a {
 :focus-visible {
   @include focus-visible;
 }
+
+:has(.swiper) {
+  min-width: 0;
+}
+
+//.header,
+//.content > *:not(:nth-last-child(2)),
+//.footer {
+//  display: none !important;
+//}

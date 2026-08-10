@@ -1,12 +1,22 @@
-import { Head } from "minista"
+import Hero from '@/sections/Hero'
+import Categories from '@/sections/Categories'
+import Devices from "@/sections/Devices";
+import Questions from "@/sections/Questions";
+import Plans from "@/sections/Plans";
 
-export default function () {
+export const metadata = {
+  title: 'Home',
+  isHeaderFixed: true,
+}
+
+export default () => {
   return (
     <>
-      <Head>
-        <title>Hello!</title>
-      </Head>
-      <h1>Hello!</h1>
+      <Hero />
+      <Categories />
+      <Devices />
+      <Questions />
+      <Plans />
     </>
   )
 }
