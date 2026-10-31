@@ -1,4 +1,5 @@
-import MovieBannerCard from "@/components/MovieBannerCard";
+import MovieBannerCard from '@/components/MovieBannerCard'
+// import MovieBannerCard from '../MovieBannerCard'
 
 const ShowBanner = () => {
   const titleId = 'show-banner-title'

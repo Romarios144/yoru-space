@@ -20,6 +20,7 @@ const Hero = () => {
           </div>
           <Button
             className="hero__button"
+            href="/yoru-space/movies"
             iconName="play"
             hasFillIcon
             label="Start Watching Now"

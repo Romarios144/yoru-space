@@ -21,7 +21,7 @@ const Banner = () => {
         <Button
           className="banner__button"
           label="Start a Free Trail"
-          href="/subscriptions"
+          href="/yoru-space/support"
         />
       </div>
     </section>
