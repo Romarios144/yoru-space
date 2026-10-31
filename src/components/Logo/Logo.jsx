@@ -13,7 +13,7 @@ const Logo = (props) => {
   return (
     <a
       className={classNames(className, 'logo')}
-      href="/"
+      href="/yoru-space/"
       title={title}
       aria-label={title}
     >

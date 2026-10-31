@@ -13,19 +13,23 @@ const Header = (props) => {
   const menuItems = [
     {
       label: 'Home',
-      href: '/',
+      href: '/yoru-space/',
     },
     {
       label: 'Anime',
-      href: '/movies',
+      href: 'movies',
     },
     {
       label: 'Support',
-      href: '/support',
+      href: 'support',
     },
     {
-      label: 'Subscriptions',
-      href: '/subscriptions',
+      label: 'Show',
+      href: 'show',
+    },
+    {
+      label: 'ANIME',
+      href: 'anime',
     },
   ]
 
