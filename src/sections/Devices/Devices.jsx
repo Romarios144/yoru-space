@@ -12,32 +12,32 @@ const Devices = () => {
   const deviceItems = [
     {
       title: 'Smartphones',
-      description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
+      description: 'YoruSpace is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
       imgSrc: deviceImgSrc_1,
     },
     {
       title: 'Tablet',
-      description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
+      description: 'YoruSpace is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
       imgSrc: deviceImgSrc_2,
     },
     {
       title: 'Smart TV',
-      description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
+      description: 'YoruSpace is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
       imgSrc: deviceImgSrc_3,
     },
     {
       title: 'Laptops',
-      description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
+      description: 'YoruSpace is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
       imgSrc: deviceImgSrc_4,
     },
     {
       title: 'Gaming Consoles',
-      description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
+      description: 'YoruSpace is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
       imgSrc: deviceImgSrc_5,
     },
     {
       title: 'VR Headsets ',
-      description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
+      description: 'YoruSpace is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
       imgSrc: deviceImgSrc_6,
     },
   ]
@@ -45,7 +45,7 @@ const Devices = () => {
     <Section
       title="We Provide you streaming experience across various devices."
       titleId="devices-title"
-      description="With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment."
+      description="With YoruSpace, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment."
     >
       <Grid columns={3}>
         {deviceItems.map((deviceItem, index) => (
